@@ -14,12 +14,28 @@ export const galleryConfig: GalleryConfig = {
 		// tags: 相册标签，用于分类和过滤
 		// 每添加一个数组项就相当于添加了一个相册，记得在 public/gallery/ 目录下创建对应的子目录并放入图片
 		{
-			id: "哈尔滨-2026",
-			name: "东北旅游",
-			description: "第一次坐飞机。",
-			location: "哈尔滨&白山市",
+			id: "黑龙江-2026",
+			name: "黑龙江",
+			description: "",
+			location: "黑龙江",
+			date: "2026-01-02",
+			tags: ["旅游", "中国", "黑龙江", "东北"],
+		},
+		{
+			id: "吉林-2026",
+			name: "吉林",
+			description: "",
+			location: "吉林",
 			date: "2026-01-01",
-			tags: ["旅游", "中国", "哈尔滨", "长白山", "东北", "飞机"],
+			tags: ["旅游", "中国", "吉林", "东北","长白山"],
+		},
+		{
+			id: "辽宁-2026",
+			name: "辽宁",
+			description: "沈阳。狗都不去！",
+			location: "辽宁",
+			date: "2026-01-04",
+			tags: ["旅游", "中国", "辽宁", "东北"],
 		},
 	],
 
